@@ -1,0 +1,108 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-color: rgb(249, 249, 249);
+}
+
+img.logo
+{
+	width: 41%;
+	/* src: url(../images/csula.jpg); */
+}
+
+
+#banner {
+	height: 80px;
+	background-color: #ffd402;
+}
+
+.header {
+	height: 80px;
+	float: left;
+	background: #ffd402 no-repeat left top;
+}
+
+.header2 {
+	height: 80px;
+	float: right;
+	background: #ffd402 no-repeat right top;
+	margin-right: 20px;
+}
+
+.topmenu {
+	background: #333;
+	height: 25px;
+	padding-top: 3px;
+	text-align: right;
+}
+
+.topmenu a {
+	font-family: arial;
+	color: white;
+	text-decoration: none;
+	padding: 3px 30px;
+	border-left: 1px solid #444;
+}
+
+#left-column {
+	float: left;
+	width: 28%;
+	padding-left: 10px;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+#center-column {
+	float: left;
+	width: 38%;
+	padding-left: 10px;
+	vertical-align: top;
+	padding-top: 20px;
+}
+
+.box {
+	border: 2px solid #c0c0c0;
+	background-color: #FFF;
+	width: 97%;
+	box-shadow: 6px 6px 6px #CCC;
+	border-radius: 4px;
+}
+
+.box h1 {
+	background: #c0c0c0;
+	font-size: 1.20em;
+	padding-top: 1px;
+	height: 23px;
+	padding-left: 3px;
+	margin: 0;
+}
+
+.box div {
+	padding: 10px 5px;
+}
+
+.btnsubmit {
+	float: right;
+	margin: 0px 0px 0px 0px;
+	width: 100px;
+	width: 99px;
+	height: 34px;
+	background-color: #ffd402;
+	font: bold 12px arial;
+	border-radius: 4px;
+}
+
+.table tr
+{
+	text-align: center;
+}
+
+.table tr:HOVER
+{
+	background-color: rgb(207, 207, 207);
+}
+
+.table tr.active th
+{
+	text-align: center !important;
+}
